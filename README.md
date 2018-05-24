@@ -1,0 +1,2 @@
+# kupumaori
+Maori vocab flashcards
