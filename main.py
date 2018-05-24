@@ -1,11 +1,16 @@
 
-from __future__ import print_function
+from __future__ import absolute_import, division, print_function
 from os import listdir, system
 from os.path import isfile
 import random
 import readchar
 from sys import exit
 from time import sleep
+
+
+# Back `input` backwards compatible.
+if hasattr(__builtins__, 'raw_input'):
+    input = raw_input
 
 
 # Control sequences for various keys.
